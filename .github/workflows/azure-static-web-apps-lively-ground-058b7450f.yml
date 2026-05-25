@@ -34,7 +34,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env:
           VITE_WIDGET_URL: /widget.js
-          VITE_TENANT_ID: 0cdb6db9-f286-426d-a234-97a2f7e1fe22
+          VITE_TENANT_ID: 1797fb99-7a4b-416a-bd3e-634913968829
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
