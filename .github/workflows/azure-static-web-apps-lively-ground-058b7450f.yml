@@ -32,6 +32,9 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+        env:
+          VITE_WIDGET_URL: https://inventa-ai.westus2.cloudapp.azure.com/widget.js
+          VITE_TENANT_ID: 0cdb6db9-f286-426d-a234-97a2f7e1fe22
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
