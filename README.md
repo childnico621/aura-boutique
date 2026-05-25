@@ -346,8 +346,6 @@ https://<storage>.z13.web.core.windows.net
 |---|---|
 | Azure Static Web Apps | Mejor opción |
 | Storage Account Static Website | Más económico |
-| App Service | Solo si hay backend Node |
-| AKS | Overkill para este frontend |
 
 ---
 
