@@ -9,13 +9,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    port: 5174,
-    proxy: {
-      '/widget.js': {
-        target: 'https://inventa-ai.westus2.cloudapp.azure.com',
-        changeOrigin: true,
-        secure: false,
-      }
-    }
+    port: 5174
   },
 })
