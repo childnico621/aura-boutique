@@ -2,20 +2,7 @@ import { useEffect } from 'react'
 
 
 function App() {
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = import.meta.env.VITE_WIDGET_URL
-    script.setAttribute('data-tenant', import.meta.env.VITE_TENANT_ID)
-    script.async = true
-
-    document.body.appendChild(script)
-
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
-   
-
+ 
   return (
     <div className="min-h-screen bg-neutral-950 text-white overflow-x-hidden">
       {/* Hero */}
